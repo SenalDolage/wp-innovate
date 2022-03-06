@@ -40,7 +40,6 @@
             );
             $cats = get_categories($args);
             foreach ($cats as $cat) {
-                var_dump($cats);
             ?>
                 <div>
                     <?php echo $cat->name; ?>
