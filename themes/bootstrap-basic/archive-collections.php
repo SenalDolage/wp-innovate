@@ -11,7 +11,7 @@ get_header();
 $main_column_size = bootstrapBasicGetMainColumnSize();
 ?>
 
-<div class="content-area" id="main-column">
+<div class="content-area" id="main-column" style="background: #808080;">
 	<main id="main" class="site-main" role="main">
 		<?php if (have_posts()) { ?>
 			<?php
@@ -34,7 +34,7 @@ $main_column_size = bootstrapBasicGetMainColumnSize();
 				<div class="content-box">
 					<div class="container">
 						<div class="cat-name-wrap">
-							<h2 class="cat-name"><?php echo $cat->name ?></h2>
+							<h2 class="cat-name"><?php echo $cat->name ?> Range</h2>
 						</div>
 						<div class="items">
 							<div class="row product-items-wrapper">

@@ -68,7 +68,7 @@
 						<div class="col-xs-12">
 							<form role="search" method="get" action="#" class="wp-block-search__button-outside wp-block-search__text-button wp-block-search">
 									<div class="wp-block-search__inside-wrapper ">
-										<input type="search" id="wp-block-search__input-1" class="wp-block-search__input " name="s" value="hello world" placeholder="" required="">
+										<input type="search" id="wp-block-search__input-1" class="wp-block-search__input " name="s"  placeholder="" required="">
 										<button type="submit" class="wp-block-search__button  ">Search</button>
 									</div>
 							</form>
