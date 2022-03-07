@@ -325,3 +325,270 @@ header .navbar-default .navbar-nav > li > a {
 .title-wrapper h2 {
   color: #fff;
 }
+
+/* New in styles  */
+.new-in .new-list {
+  padding: 0 50px;
+  position: relative;
+}
+
+.new-list-item {
+  background: #fff;
+  align-items: start;
+  border-radius: 15px;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: start;
+  margin: 0 15px;
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .new-list-item {
+    align-items: center;
+  }
+}
+
+@media (min-width: 992px) {
+  .new-list-item {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.new-list-item::after {
+  background: rgb(173, 34, 135);
+  background: linear-gradient(
+    180deg,
+    rgba(173, 34, 135, 0) 0%,
+    rgba(173, 34, 135, 1) 30%,
+    rgba(173, 34, 135, 1) 100%
+  );
+  border-radius: 15px;
+  content: "";
+  display: block;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .new-list-item::after {
+    background: linear-gradient(
+      180deg,
+      rgba(173, 34, 135, 0) 0%,
+      rgba(173, 34, 135, 1) 50%,
+      rgba(173, 34, 135, 1) 100%
+    );
+  }
+}
+
+@media (min-width: 992px) {
+  .new-list-item::after {
+    background: linear-gradient(
+      90deg,
+      rgba(173, 34, 135, 0) 0%,
+      rgba(173, 34, 135, 1) 50%,
+      rgba(173, 34, 135, 1) 100%
+    );
+  }
+}
+
+@media (min-width: 1025px) {
+  .new-list-item::after {
+    background: linear-gradient(
+      90deg,
+      rgba(173, 34, 135, 0) 0%,
+      rgba(173, 34, 135, 1) 40%,
+      rgba(173, 34, 135, 1) 100%
+    );
+  }
+}
+
+.new-list-item img {
+  border-radius: 15px 15px 0 0;
+}
+
+@media (min-width: 768px) {
+  .new-list-item img {
+    object-fit: cover;
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .new-list-item img {
+    border-radius: 15px 0 0 15px;
+    width: auto;
+  }
+}
+
+.new-list-item-description {
+  padding: 0 10px;
+  position: relative;
+  z-index: 1;
+}
+
+@media (min-width: 768px) {
+  .new-list-item-description {
+    padding-left: 15px;
+  }
+}
+
+@media (min-width: 992px) {
+  .new-list-item-description {
+    padding-right: 50px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .new-list-item-description {
+    padding-right: 70px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .new-list-item-description {
+    padding-right: 150px;
+  }
+}
+
+.new-list-title {
+  color: #fff;
+  font-size: 45px;
+  font-weight: bold;
+  line-height: 1;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.new-list-subtitle {
+  color: #fff;
+  font-size: 35px;
+  font-weight: bold;
+  line-height: 1;
+  margin: 0 0 0 0;
+  text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+  .new-list-subtitle {
+    margin: 0 0 0 38px;
+  }
+}
+
+.new-list-arrival {
+  color: #fff;
+  font-family: "Comforter Brush", cursive;
+  margin: 0;
+  font-size: 50px;
+  letter-spacing: 9px;
+  line-height: 1;
+}
+
+@media (min-width: 768px) {
+  .new-list-arrival {
+    margin: 0 0 0 50px;
+  }
+}
+
+.new-list-btn-wrapper {
+  margin-left: 0;
+  padding-bottom: 25px;
+}
+
+@media (min-width: 768px) {
+  .new-list-btn-wrapper {
+    margin-left: 70px;
+  }
+}
+
+@media (min-width: 992px) {
+  .new-list-btn-wrapper {
+    padding-bottom: 0;
+  }
+}
+
+.new-list-btn {
+  background-color: #641456;
+  border: 0 none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 12px;
+  margin: 0 5px;
+  padding: 5px 10px;
+  text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+  .new-list-btn {
+    font-size: 14px;
+  }
+}
+
+.new-list .slick-arrow {
+  background-color: transparent;
+  border: 0 none;
+  bottom: 0;
+  font-size: 0;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.new-list .slick-arrow::before {
+  background-image: url("../img/chevron-left-solid.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: "";
+  display: block;
+  height: 100px;
+  width: 35px;
+}
+
+.new-list .slick-arrow.slick-next {
+  left: auto;
+  right: 0;
+}
+
+.new-list .slick-arrow.slick-next::before {
+  transform: rotate(180deg);
+}
+
+.new-list .slick-dots {
+  bottom: 5px;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: 0;
+}
+
+@media (min-width: 991px) {
+  .new-list .slick-dots {
+    justify-content: end;
+    left: auto;
+    padding-right: 85px;
+  }
+}
+
+.new-list .slick-dots li button {
+  background-color: #fff;
+  border: 0 none;
+  border-radius: 50%;
+  font-size: 0;
+  height: 10px;
+  margin: 0 5px;
+  padding: 0;
+  width: 10px;
+}
+
+.new-list .slick-dots li.slick-active button {
+  background-color: #bbb8bc;
+}

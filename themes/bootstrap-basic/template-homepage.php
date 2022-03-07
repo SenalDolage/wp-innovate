@@ -51,6 +51,56 @@
     </div>
 </section>
 
+<!-- New in section  -->
+<section class="new-in" style="background-color: red">
+    <div class="container">
+        <div class="title-wrapper">
+            <h2>New In</h2>
+        </div>
+
+        <div class="new-list">
+
+            <div class="new-list-item">
+                <img src="https://via.placeholder.com/400x200" alt="">
+                <div class="new-list-item-description">
+                    <p class="new-list-title">Quirky</p>
+                    <p class="new-list-subtitle">Lanka Range</p>
+                    <p class="new-list-arrival">New Arrival</p>
+                    <div class="new-list-btn-wrapper">
+                        <button class="new-list-btn">Shop Now</button>
+                        <button class="new-list-btn">See More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="new-list-item">
+                <img src="https://via.placeholder.com/400x200" alt="">
+                <div class="new-list-item-description">
+                    <p class="new-list-title">Quirky</p>
+                    <p class="new-list-subtitle">Lanka Range</p>
+                    <p class="new-list-arrival">New Arrival</p>
+                    <div class="new-list-btn-wrapper">
+                        <button class="new-list-btn">Shop Now</button>
+                        <button class="new-list-btn">See More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="new-list-item">
+                <img src="https://via.placeholder.com/400x200" alt="">
+                <div class="new-list-item-description">
+                    <p class="new-list-title">Quirky</p>
+                    <p class="new-list-subtitle">Lanka Range</p>
+                    <p class="new-list-arrival">New Arrival</p>
+                    <div class="new-list-btn-wrapper">
+                        <button class="new-list-btn">Shop Now</button>
+                        <button class="new-list-btn">See More</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
 <!-- About Us Section -->
 <section class="about-us">
     <div class="container">
