@@ -37,7 +37,7 @@ $main_column_size = bootstrapBasicGetMainColumnSize();
 							<h2 class="cat-name"><?php echo $cat->name ?></h2>
 						</div>
 						<div class="items">
-							<div class="row">
+							<div class="row product-items-wrapper">
 								<?php foreach ($allPosts as $post) { ?>
 									<div class="col-md-3 product-item">
 										<div class="product-item-inner">
