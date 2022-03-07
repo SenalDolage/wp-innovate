@@ -31,21 +31,15 @@
 
         <div class="categories-list">
             <?php
-            $args = array(
-                'taxonomy' => 'category',
-                'orderby' => 'name',
-                'order'   => 'ASC',
-                'terms' => array('uncategorized'),
-                'operator' => 'NOT IN'
-            );
-            $cats = get_categories($args);
-            foreach ($cats as $cat) {
+            if (have_rows('collections')) :
+                while (have_rows('collections')) : the_row();
             ?>
-                <div class="category-item">
-                    <img src="https://via.placeholder.com/370x300">
-                </div>
+                    <div class="category-item">
+                        <img src="<?php the_sub_field('collection_item'); ?>" alt="category">
+                    </div>
             <?php
-            }
+                endwhile;
+            endif;
             ?>
         </div>
     </div>
@@ -59,44 +53,38 @@
         </div>
 
         <div class="new-list">
+            <?php
+            if (have_rows('new-repeater')) :
+                while (have_rows('new-repeater')) : the_row();
+            ?>
+                    <div class="new-list-item">
+                        <img src="<?php the_sub_field('left_column_image'); ?>" alt="new-product">
+                        <div class="new-list-item-description">
+                            <p class="new-list-title">
+                                <?php the_sub_field('right_column_title'); ?>
+                            </p>
+                            <p class="new-list-subtitle">
+                                <?php the_sub_field('right_column_subtitle'); ?>
+                            </p>
 
-            <div class="new-list-item">
-                <img src="https://via.placeholder.com/400x200" alt="">
-                <div class="new-list-item-description">
-                    <p class="new-list-title">Quirky</p>
-                    <p class="new-list-subtitle">Lanka Range</p>
-                    <p class="new-list-arrival">New Arrival</p>
-                    <div class="new-list-btn-wrapper">
-                        <button class="new-list-btn">Shop Now</button>
-                        <button class="new-list-btn">See More</button>
-                    </div>
-                </div>
-            </div>
-            <div class="new-list-item">
-                <img src="https://via.placeholder.com/400x200" alt="">
-                <div class="new-list-item-description">
-                    <p class="new-list-title">Quirky</p>
-                    <p class="new-list-subtitle">Lanka Range</p>
-                    <p class="new-list-arrival">New Arrival</p>
-                    <div class="new-list-btn-wrapper">
-                        <button class="new-list-btn">Shop Now</button>
-                        <button class="new-list-btn">See More</button>
-                    </div>
-                </div>
-            </div>
-            <div class="new-list-item">
-                <img src="https://via.placeholder.com/400x200" alt="">
-                <div class="new-list-item-description">
-                    <p class="new-list-title">Quirky</p>
-                    <p class="new-list-subtitle">Lanka Range</p>
-                    <p class="new-list-arrival">New Arrival</p>
-                    <div class="new-list-btn-wrapper">
-                        <button class="new-list-btn">Shop Now</button>
-                        <button class="new-list-btn">See More</button>
-                    </div>
-                </div>
-            </div>
+                            <?php if (get_sub_field('new_arrival')) { ?>
+                                <p class="new-list-arrival">New Arrival</p>
+                            <?php } ?>
 
+                            <div class="new-list-btn-wrapper">
+                                <a href="<?php the_sub_field('shop_now_link'); ?>" class="new-list-btn" target="_blank">
+                                    Shop Now
+                                </a>
+                                <a href="<?php the_sub_field('see_more_link'); ?>" class="new-list-btn" target="_blank">
+                                    See More
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+            <?php
+                endwhile;
+            endif;
+            ?>
         </div>
     </div>
 </section>
