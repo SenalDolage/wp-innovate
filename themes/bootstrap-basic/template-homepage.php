@@ -31,21 +31,15 @@
 
         <div class="categories-list">
             <?php
-            $args = array(
-                'taxonomy' => 'category',
-                'orderby' => 'name',
-                'order'   => 'ASC',
-                'terms' => array('uncategorized'),
-                'operator' => 'NOT IN'
-            );
-            $cats = get_categories($args);
-            foreach ($cats as $cat) {
+            if (have_rows('collections')) :
+                while (have_rows('collections')) : the_row();
             ?>
-                <div class="category-item">
-                    <img src="https://via.placeholder.com/370x300">
-                </div>
+                    <div class="category-item">
+                        <img src="<?php the_sub_field('collection_item'); ?>" alt="category">
+                    </div>
             <?php
-            }
+                endwhile;
+            endif;
             ?>
         </div>
     </div>
