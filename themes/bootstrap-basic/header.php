@@ -101,4 +101,4 @@
 			</div>
 			
 			
-			<div id="content" class="row-with-vspace site-content">
+			<div id="content" class="site-content">

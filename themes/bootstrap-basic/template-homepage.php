@@ -9,9 +9,9 @@
 
 <!-- Hero Banner Section -->
 <div class="hero-banner">
-    <?php if (get_field('banner_image')) : 
+    <?php if (get_field('banner_image')) :
         $image = get_field('banner_image');
-    ?>    
+    ?>
         <div class="image-wrapper">
             <img src="<?php echo esc_url($image['url']); ?>" alt="banner" />
         </div>
@@ -63,8 +63,10 @@
                 while (have_rows('about_us')) : the_row();
             ?>
                     <div class="col-content col-md-4">
-                        <h4><?php the_sub_field('title'); ?></h4>
-                        <p><?php the_sub_field('description'); ?></p>
+                        <div class="inner-col">
+                            <h4><?php the_sub_field('title'); ?></h4>
+                            <p><?php the_sub_field('description'); ?></p>
+                        </div>
                     </div>
             <?php
                 endwhile;
