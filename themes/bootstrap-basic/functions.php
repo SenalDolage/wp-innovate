@@ -176,6 +176,7 @@ if (!function_exists('bootstrapBasicEnqueueScripts')) {
         wp_enqueue_style('bootstrap-style');
         wp_enqueue_style('bootstrap-theme-style', get_template_directory_uri() . '/css/bootstrap-theme.min.css', array(), '3.4.1');
         wp_enqueue_style('fontawesome-style', get_template_directory_uri() . '/css/font-awesome.min.css', array(), '4.7.0');
+        wp_enqueue_style('slick-css', get_template_directory_uri() . '/css/slick.css', array());
         wp_enqueue_style('main-style', get_template_directory_uri() . '/css/main.css', array(), $themeVersion);
 
         // check if there are any calendar widget block.
@@ -201,6 +202,7 @@ if (!function_exists('bootstrapBasicEnqueueScripts')) {
         }
 
         wp_enqueue_script('bootstrap-script');
+        wp_enqueue_script('slick-js', get_template_directory_uri() . '/js/slick.min.js', array(), '1.8.0', true);
         wp_enqueue_script('main-script', get_template_directory_uri() . '/js/main.js', array('jquery'), $themeVersion, true);
         wp_enqueue_style('bootstrap-basic-style', get_stylesheet_uri(), array(), $themeVersion);
 
