@@ -121,7 +121,7 @@
 
 		<div class="third-row">
 			<div class="copright">
-				2022 Innovate. All Rights Reserved.
+				&copy; <?php echo date('Y'); ?> Innovate. All Rights Reserved.
 			</div>
 		</div>
 	</div>

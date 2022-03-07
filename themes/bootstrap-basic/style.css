@@ -140,7 +140,7 @@ Required WordPress CSS
 
 /* Section spacing */
 section {
-  padding: 35px 0;
+  padding: 60px 0;
 }
 
 /* Home Hero section */
@@ -168,14 +168,24 @@ section {
 }
 
 /* Home About Section */
+.about-us {
+  background-color: #464646;
+  color: #fff;
+}
+
 .about-us .col-content {
   text-align: center;
   padding-bottom: 10px;
 }
 
 @media (min-width: 991px) {
-  .about-us .col-content {
+  .about-us .inner-col {
     padding: 0 25px;
+  }
+
+  .about-us .inner-col p {
+    line-height: 22px;
+    margin-bottom: 0;
   }
 }
 
