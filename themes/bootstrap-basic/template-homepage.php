@@ -23,7 +23,7 @@
 </div>
 
 <!-- Collection Section -->
-<section class="collection">
+<section class="collection" style="background-color: red">
     <div class="container">
         <div class="title-wrapper">
             <h2>Collection</h2>
@@ -41,8 +41,8 @@
             $cats = get_categories($args);
             foreach ($cats as $cat) {
             ?>
-                <div>
-                    <?php echo $cat->name; ?>
+                <div class="category-item">
+                    <img src="https://via.placeholder.com/370x300">
                 </div>
             <?php
             }
