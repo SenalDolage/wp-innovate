@@ -143,6 +143,10 @@ section {
   padding: 60px 0;
 }
 
+.site-content .content-area {
+  padding: 50px 0;
+}
+
 /* Home Hero section */
 .hero-banner {
   margin-bottom: 30px;
