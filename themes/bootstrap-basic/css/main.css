@@ -278,6 +278,21 @@ img.aligncenter {
   color: #fff;
 }
 
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+  background-color: #b0218a;
+  background-image: none;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover {
+  color: #eee;
+}
+
 /* Collection styles  */
 .categories-list {
   padding: 0 50px;
@@ -591,4 +606,89 @@ img.aligncenter {
 
 .new-list .slick-dots li.slick-active button {
   background-color: #bbb8bc;
+}
+
+/* Ranges styles  */
+h2.cat-name {
+  color: #fff;
+  font-size: 50px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.product-item {
+  margin-bottom: 60px;
+}
+
+.product-img-wrap img {
+  border-radius: 15px;
+  width: 100%;
+}
+
+.product-item-inner a {
+  color: #fff;
+  display: block;
+  overflow: hidden;
+  position: relative;
+}
+
+.hover-content {
+  align-items: center;
+  background: rgb(173, 34, 135);
+  background: linear-gradient(
+    0deg,
+    rgba(173, 34, 135, 0.46852244315695024) 0%,
+    rgba(173, 34, 135, 0.7570378493194152) 24%,
+    rgba(173, 34, 135, 0.9671218829328606) 100%
+  );
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: translateY(-100%);
+  transition: 0.3s;
+  width: 100%;
+}
+
+.product-item-inner a:hover .hover-content {
+  transform: translateY(0);
+}
+
+.hover-content .product-name {
+  margin-bottom: 15px;
+}
+
+.hover-content .shop-now {
+  font-size: 16px;
+}
+
+.product-items-wrapper .slick-dots {
+  top: -35px;
+  display: flex;
+  justify-content: end;
+  list-style: none;
+  left: 0;
+  margin: 0;
+  padding: 0 15px 0 0;
+  position: absolute;
+  right: 0;
+}
+
+.product-items-wrapper .slick-dots li button {
+  background-color: #fff;
+  border: 0 none;
+  border-radius: 50%;
+  font-size: 0;
+  height: 10px;
+  margin: 0 5px;
+  padding: 0;
+  width: 10px;
+}
+
+.product-items-wrapper .slick-dots li.slick-active button {
+  background-color: #b0218a;
 }
