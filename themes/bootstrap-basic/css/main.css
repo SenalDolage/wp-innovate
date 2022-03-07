@@ -198,12 +198,12 @@ img.aligncenter {
   }
 }
 
-header {
+.site-header {
   background-color: #b0218a;
   padding: 10px 0;
 }
 
-header .navbar-default {
+.site-header .navbar-default {
   background-color: transparent;
   background-image: none;
   border: 0 none;
@@ -211,11 +211,11 @@ header .navbar-default {
   margin-bottom: 0;
 }
 
-header .nav-bar-wrapper {
+.site-header .nav-bar-wrapper {
   padding: 0;
 }
 
-header .navbar-default .navbar-nav > li > a {
+.site-header .navbar-default .navbar-nav > li > a {
   color: #fff;
   text-transform: uppercase;
 }

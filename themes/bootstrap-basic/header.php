@@ -36,7 +36,7 @@
 		
 		<div class="page-container">
 			<?php do_action('before'); ?> 
-			<header role="banner">
+			<header role="banner" class="site-header">
 				<div class="container">
 					<div class="row">
 						<div class="col-xs-8 col-sm-4">
