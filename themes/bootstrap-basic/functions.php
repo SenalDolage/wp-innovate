@@ -57,6 +57,9 @@ if (!function_exists('bootstrapBasicSetup')) {
         // add support menu
         register_nav_menus(array(
             'primary' => __('Primary Menu', 'bootstrap-basic'),
+            'footer-col-one' => __('Footer Col One Menu', 'bootstrap-basic'),
+            'footer-col-two' => __('Footer Col Two Menu', 'bootstrap-basic'),
+            'footer-col-three' => __('Footer Col Three Menu', 'bootstrap-basic'),
         ));
 
         // add post formats support
