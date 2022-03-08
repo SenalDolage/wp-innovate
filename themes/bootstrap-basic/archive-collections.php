@@ -13,26 +13,27 @@ $main_column_size = bootstrapBasicGetMainColumnSize();
 
 <div class="content-area" id="main-column" style="background: #808080;">
 	<main id="main" class="site-main" role="main">
-		<?php if (have_posts()) { ?>
-			<?php
-			$args = array(
-				'post_type'  => 'collections',
-			);
-			$postslist = get_posts($args);
-			$categories = get_categories($args);
+		<div class="container">
 
-			foreach ($categories as $cat) {
-				$catId = $cat->term_id;
-				$postArgs = array(
+			<?php if (have_posts()) { ?>
+				<?php
+				$args = array(
 					'post_type'  => 'collections',
-					'posts_per_page' => -1,
-					'offset' => 0,
-					'category' => $catId
 				);
-				$allPosts = get_posts($postArgs);
-			?>
-				<div class="content-box">
-					<div class="container">
+				$postslist = get_posts($args);
+				$categories = get_categories($args);
+
+				foreach ($categories as $cat) {
+					$catId = $cat->term_id;
+					$postArgs = array(
+						'post_type'  => 'collections',
+						'posts_per_page' => -1,
+						'offset' => 0,
+						'category' => $catId
+					);
+					$allPosts = get_posts($postArgs);
+				?>
+					<div class="content-box">
 						<div class="cat-name-wrap">
 							<h2 class="cat-name"><?php echo $cat->name ?> Range</h2>
 						</div>
@@ -59,13 +60,13 @@ $main_column_size = bootstrapBasicGetMainColumnSize();
 							</div>
 						</div>
 					</div>
-				</div>
-			<?php } ?>
+				<?php } ?>
 
-		<?php } else { ?>
-			<?php get_template_part('no-results', 'archive'); ?>
-		<?php } //endif; 
-		?>
+			<?php } else { ?>
+				<?php get_template_part('no-results', 'archive'); ?>
+			<?php } //endif; 
+			?>
+		</div>
 	</main>
 </div>
 
