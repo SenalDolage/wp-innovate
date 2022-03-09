@@ -220,11 +220,20 @@ img.aligncenter {
   text-transform: uppercase;
 }
 
+.site-header .top-header-row {
+  display: flex;
+  align-items: center;
+}
+
+.site-header .top-header-row .main-logo-wrap {
+  max-width: 230px;
+}
+
 .sub-header {
   background-color: #b0218a;
   border-radius: 5px;
   margin-top: 5px;
-  padding: 2px 0;
+  padding: 10px 0;
 }
 
 .sub-header .container .row .col-xs-12 {
@@ -237,6 +246,10 @@ img.aligncenter {
 @media (min-width: 768px) {
   .sub-header .container .row .col-xs-12 {
     flex-direction: row;
+  }
+
+  .sub-header {
+    padding: 3px 0;
   }
 }
 

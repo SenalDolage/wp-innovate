@@ -11,7 +11,7 @@ get_header();
 $main_column_size = bootstrapBasicGetMainColumnSize();
 ?>
 
-<div class="content-area" id="main-column" style="background: #808080;">
+<div class="content-area" id="main-column">
 	<main id="main" class="site-main" role="main">
 		<div class="container">
 

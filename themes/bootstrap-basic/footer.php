@@ -15,7 +15,7 @@
 
 		<div class="first-row">
 			<div class="logo-content">
-				<img src="https://via.placeholder.com/200X100" />
+				<img src="<?php bloginfo('template_url'); ?>/img/logo.png">
 			</div>
 
 			<div class="socials-content">

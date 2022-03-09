@@ -138,6 +138,17 @@ Required WordPress CSS
   z-index: 100000; /* Above WP toolbar. */
 }
 
+.align-items-center {
+  align-items: center;
+}
+
+.page-container {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
+}
+
 /* Section spacing */
 section {
   padding: 60px 0;
@@ -209,10 +220,14 @@ section {
   margin: 0 auto 30px;
 }
 
+.site-footer .first-row .logo-content img {
+  max-width: 230px;
+}
+
 .site-footer .first-row .socials-content {
   border-top: 2px solid #fff;
   padding-top: 15px;
-  margin-top: 15px;
+  margin-top: 10px;
   display: flex;
   justify-content: space-around;
   align-items: center;

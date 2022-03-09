@@ -23,7 +23,7 @@
 </div>
 
 <!-- Collection Section -->
-<section class="collection" style="background-color: #8c7b7b">
+<section class="collection">
     <div class="container">
         <div class="title-wrapper">
             <h2>Collection</h2>
@@ -46,7 +46,7 @@
 </section>
 
 <!-- New in section  -->
-<section class="new-in" style="background-color: #8c7b7b">
+<section class="new-in">
     <div class="container">
         <div class="title-wrapper">
             <h2>New In</h2>
@@ -90,7 +90,7 @@
 </section>
 
 <!-- About Us Section -->
-<section class="about-us" style="background-color: #8c7b7b">
+<section class="about-us">
     <div class="container">
         <div class="title-wrapper">
             <h2>About Us</h2>
