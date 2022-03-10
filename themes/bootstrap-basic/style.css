@@ -138,6 +138,10 @@ Required WordPress CSS
   z-index: 100000; /* Above WP toolbar. */
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .align-items-center {
   align-items: center;
 }

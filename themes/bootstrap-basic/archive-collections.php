@@ -33,7 +33,7 @@ $main_column_size = bootstrapBasicGetMainColumnSize();
 					);
 					$allPosts = get_posts($postArgs);
 				?>
-					<div class="content-box">
+					<div class="content-box" id="<?php echo $cat->slug ?>">
 						<div class="cat-name-wrap">
 							<h2 class="cat-name"><?php echo $cat->name ?> Range</h2>
 						</div>
