@@ -262,9 +262,98 @@ section {
   display: block;
 }
 
+.site-footer .second-row .newsletter-inner {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.site-footer .second-row .newsletter-inner .submit-btn {
+  margin-top: 5px;
+  text-transform: uppercase;
+  color: #b0218a;
+  font-weight: 600;
+}
+
+.site-footer .second-row .newsletter-inner .wpcf7-not-valid-tip {
+  background-color: #fff;
+  width: fit-content;
+  margin: 10px auto 0;
+  padding: 5px 10px;
+  font-weight: 700;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.site-footer .second-row .newsletter-inner .wpcf7-response-output {
+  text-align: center;
+  margin: 10px 0;
+  padding: 10px;
+  background: #fff;
+  border: none;
+  color: #b0218a;
+  font-weight: 600;
+}
+
+.site-footer .second-row .newsletter-inner .wpcf7-spinner {
+  position: absolute;
+  z-index: 1;
+}
+
+@media (min-width: 992px) {
+  .site-footer .second-row .newsletter-inner {
+    margin-top: 0;
+    text-align: unset;
+    max-width: 350px;
+    margin-left: auto;
+  }
+
+  .site-footer .second-row .newsletter-inner .submit-btn {
+    margin-top: 0;
+    width: 40%;
+    max-height: 30px;
+  }
+
+  .site-footer .second-row .newsletter-form-inner {
+    display: flex;
+  }
+
+  .site-footer .second-row .newsletter-inner .wpcf7-form-control-wrap.email {
+    width: 70%;
+    display: block;
+    margin-right: 3px;
+  }
+
+  .site-footer .second-row .newsletter-inner .email-input {
+    width: 100%;
+    color: #b0218a;
+  }
+
+  .site-footer .second-row .newsletter-inner .wpcf7-not-valid-tip {
+    margin: 10px 0;
+  }
+
+  .site-footer .second-row .newsletter-inner .wpcf7-spinner {
+    right: -15px;
+    margin: 0;
+  }
+}
+
 .site-footer .third-row {
   text-align: center;
   padding-top: 15px;
   border-top: 2px solid #fff;
   margin-top: 20px;
+}
+
+/* Common Input Styling */
+input {
+  border-radius: 5px;
+  color: #707070;
+  border: none;
+  padding: 5px 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  outline: none;
+  font-size: 13px;
 }

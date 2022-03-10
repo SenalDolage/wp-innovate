@@ -121,7 +121,12 @@
 				</div>
 
 				<div class="col-md-6">
-
+					<div class="newsletter-inner">
+						<h4>
+							NEWSLETTER
+						</h4>
+						<?php echo do_shortcode('[contact-form-7 id="189" title="Contact form 1"]'); ?>
+					</div>
 				</div>
 			</div>
 		</div>
