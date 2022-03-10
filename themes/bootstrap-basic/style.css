@@ -168,6 +168,11 @@ section {
   min-height: 500px;
 }
 
+.hero-banner .video-wrapper {
+  max-height: calc(100vh - 137px);
+  overflow: hidden;
+}
+
 .hero-banner img {
   width: 100%;
   object-fit: cover;
