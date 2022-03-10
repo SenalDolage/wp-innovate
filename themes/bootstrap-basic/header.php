@@ -76,12 +76,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-12">
-						<form role="search" method="get" action="#" class="wp-block-search__button-outside wp-block-search__text-button wp-block-search">
-							<div class="wp-block-search__inside-wrapper ">
-								<input type="search" id="wp-block-search__input-1" class="wp-block-search__input " name="s" placeholder="" required="">
-								<button type="submit" class="wp-block-search__button  ">Search</button>
-							</div>
-						</form>
+						<div>Join the tribe</div>
 						<div class="sub-header-sm">
 							<a href="https://www.instagram.com/limitlessyou.lk/" target="_blank">
 								<svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 38 38">

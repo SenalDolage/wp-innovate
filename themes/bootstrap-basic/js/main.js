@@ -13,6 +13,7 @@ jQuery(function ($) {
         infinite: true,
         slidesToShow: 3,
         slidesToScroll: 1,
+        speed: 500,
         responsive: [
             {
                 breakpoint: 1024,
@@ -34,6 +35,7 @@ jQuery(function ($) {
         slidesToShow: 1,
         slidesToScroll: 1,
         dots: true,
+        speed: 800,
     });
 
     $('.product-items-wrapper').slick({
