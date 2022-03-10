@@ -166,11 +166,25 @@ section {
 .hero-banner {
   margin-bottom: 30px;
   min-height: 500px;
+  position: relative;
 }
 
 .hero-banner .video-wrapper {
-  max-height: calc(100vh - 137px);
+  height: 100vh;
   overflow: hidden;
+}
+
+#h5vp_player .h5vp_player {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+#h5vp_player .plyr video {
+  object-fit: cover;
+  object-position: center;
 }
 
 .hero-banner img {
