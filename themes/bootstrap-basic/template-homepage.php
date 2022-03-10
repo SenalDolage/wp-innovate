@@ -17,7 +17,7 @@
         </div>
     <?php else : ?>
         <div class="video-wrapper">
-            <?php echo do_shortcode('[presto_player id=102]	'); ?>
+            <?php echo do_shortcode('[video id="197"]'); ?>
         </div>
     <?php endif ?>
 </div>
