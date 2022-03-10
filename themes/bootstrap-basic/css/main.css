@@ -231,9 +231,10 @@ img.aligncenter {
 
 .sub-header {
   background-color: #b0218a;
-  border-radius: 5px;
-  margin-top: 5px;
   padding: 10px 0;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top: 2px solid #fff;
 }
 
 .sub-header .container .row .col-xs-12 {
@@ -249,7 +250,7 @@ img.aligncenter {
   }
 
   .sub-header {
-    padding: 3px 0;
+    padding: 4px 0;
   }
 }
 
@@ -294,8 +295,9 @@ img.aligncenter {
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:focus,
 .navbar-default .navbar-nav > .active > a:hover {
-  background-color: #b0218a;
+  background-color: rgb(102 20 80 / 50%);
   background-image: none;
+  border-radius: 20px;
 }
 
 .navbar-default .navbar-nav > .active > a,
@@ -625,7 +627,7 @@ img.aligncenter {
 /* Ranges styles  */
 h2.cat-name {
   color: #fff;
-  font-size: 50px;
+  /* font-size: 50px; */
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -664,7 +666,7 @@ h2.cat-name {
   position: absolute;
   top: 0;
   transform: translateY(-100%);
-  transition: 0.3s;
+  transition: 0.6s;
   width: 100%;
 }
 

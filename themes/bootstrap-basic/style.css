@@ -151,7 +151,7 @@ Required WordPress CSS
 
 /* Section spacing */
 section {
-  padding: 60px 0;
+  padding: 45px 0;
 }
 
 .site-content .content-area {
@@ -216,7 +216,7 @@ section {
 
 .site-footer .first-row {
   text-align: center;
-  max-width: 500px;
+  max-width: 300px;
   margin: 0 auto 30px;
 }
 
