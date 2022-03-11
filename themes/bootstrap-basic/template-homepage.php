@@ -35,7 +35,7 @@
                 while (have_rows('collections')) : the_row();
             ?>
                     <div class="category-item">
-                        <a href="<?php echo get_site_url(); ?>/collections#<?php the_sub_field('redirect_id'); ?>">
+                        <a href="<?php the_sub_field('redirect_page'); ?>">
                             <img src="<?php the_sub_field('collection_item'); ?>" alt="category">
                         </a>
                     </div>
