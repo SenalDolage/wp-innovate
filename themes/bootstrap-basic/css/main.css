@@ -234,13 +234,18 @@ img.aligncenter {
 
 .sub-menu.dropdown-menu li a {
   color: #fff;
+  padding: 10px 20px;
 }
 
-.sub-menu.dropdown-menu li a:hover,
+.sub-menu.dropdown-menu li a:hover {
+  background-color: #990b72;
+  background-image: none;
+}
+
 .dropdown-menu > .active > a,
 .dropdown-menu > .active > a:focus,
 .dropdown-menu > .active > a:hover {
-  background-color: #a20778;
+  background-color: #8b0f69;
   background-image: none;
 }
 
@@ -783,4 +788,5 @@ h2.cat-name {
 .product-items-wrapper {
   display: flex;
   flex-wrap: wrap;
+  padding-bottom: 40px;
 }
