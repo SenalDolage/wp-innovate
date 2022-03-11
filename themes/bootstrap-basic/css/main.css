@@ -750,3 +750,12 @@ h2.cat-name {
 .product-items-wrapper .slick-dots li.slick-active button {
   background-color: #a9077d;
 }
+
+/* Range Template */
+.range-banner {
+  border-top: 2px solid #fff;
+}
+
+.range-banner img {
+  width: 100%;
+}

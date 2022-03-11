@@ -15,7 +15,7 @@
             $image = get_field('range_banner_image');
         ?>
             <div class="image-wrapper">
-                <img src="<?php echo esc_url($image); ?>" alt="banner" style="width: 100%;" />
+                <img src="<?php echo esc_url($image); ?>" alt="banner" />
             </div>
         <?php endif ?>
     </div>

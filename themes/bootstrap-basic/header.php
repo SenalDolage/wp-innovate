@@ -76,7 +76,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-12">
-						<div>Join the tribe</div>
+						<div>Join The Tribe</div>
 						<div class="sub-header-sm">
 							<a href="https://www.instagram.com/limitlessyou.lk/" target="_blank">
 								<svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 38 38">
