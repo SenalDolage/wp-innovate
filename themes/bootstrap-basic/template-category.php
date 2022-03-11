@@ -32,7 +32,7 @@
                 if (have_rows('product_repeater')) :
                     while (have_rows('product_repeater')) : the_row();
                 ?>
-                        <div class="col-md-3 product-item">
+                        <div class="product-item">
                             <div class="product-item-inner">
                                 <a href="<?php the_sub_field('product_redirect_link'); ?>" target="_blank">
                                     <div class="product-img-wrap">
