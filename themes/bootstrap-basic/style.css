@@ -232,7 +232,7 @@ section {
 
 /* Footer */
 .site-footer {
-  background-color: #b0218a;
+  background-color: #a9077d;
   color: #fff;
   padding: 50px 0 30px;
 }
@@ -289,7 +289,7 @@ section {
 .site-footer .second-row .newsletter-inner .submit-btn {
   margin-top: 5px;
   text-transform: uppercase;
-  color: #b0218a;
+  color: #a9077d;
   font-weight: 600;
 }
 
@@ -309,7 +309,7 @@ section {
   padding: 10px;
   background: #fff;
   border: none;
-  color: #b0218a;
+  color: #a9077d;
   font-weight: 600;
 }
 
@@ -344,7 +344,7 @@ section {
 
   .site-footer .second-row .newsletter-inner .email-input {
     width: 100%;
-    color: #b0218a;
+    color: #a9077d;
   }
 
   .site-footer .second-row .newsletter-inner .wpcf7-not-valid-tip {

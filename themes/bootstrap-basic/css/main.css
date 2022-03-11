@@ -199,7 +199,7 @@ img.aligncenter {
 }
 
 .site-header {
-  background-color: #b0218a;
+  background-color: #a9077d;
   padding: 10px 0;
 }
 
@@ -230,7 +230,7 @@ img.aligncenter {
 }
 
 .sub-header {
-  background-color: #b0218a;
+  background-color: #a9077d;
   padding: 10px 0;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
@@ -748,5 +748,5 @@ h2.cat-name {
 }
 
 .product-items-wrapper .slick-dots li.slick-active button {
-  background-color: #b0218a;
+  background-color: #a9077d;
 }
