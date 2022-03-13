@@ -271,17 +271,17 @@ section {
   padding: 25px 0 25px;
 }
 
-.site-footer .first-row {
+.site-footer .socials-logo-row {
   text-align: center;
   max-width: 300px;
   margin: 0 auto 30px;
 }
 
-.site-footer .first-row .logo-content img {
+.site-footer .socials-logo-row .logo-content img {
   max-width: 230px;
 }
 
-.site-footer .first-row .socials-content {
+.site-footer .socials-logo-row .socials-content {
   border-top: 2px solid #fff;
   padding-top: 15px;
   margin-top: 10px;
@@ -291,12 +291,14 @@ section {
 }
 
 .site-footer .second-row .menu-col {
-  padding-bottom: 10px;
+  padding-bottom: 15px;
+  text-align: center;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .site-footer .second-row .menu-col {
     padding-bottom: 0;
+    text-align: left;
   }
 }
 
@@ -426,6 +428,23 @@ section {
   .site-footer .second-row .newsletter-inner .wpcf7-spinner {
     right: -15px;
     margin: 0;
+  }
+}
+
+.site-footer .second-row .show-mobile {
+}
+
+.site-footer .second-row .show-large {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  .site-footer .second-row .show-mobile {
+    display: none;
+  }
+
+  .site-footer .second-row .show-large {
+    display: block;
   }
 }
 
