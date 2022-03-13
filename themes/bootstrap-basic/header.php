@@ -21,7 +21,9 @@
 
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
-
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,700;1,400;1,700&display=swap" rel="stylesheet">
 	<!--wordpress head-->
 	<?php wp_head(); ?>
 </head>
@@ -76,7 +78,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-12">
-						<div>Join The Tribe</div>
+						<div class="join-tribe">Join The <span>Tribe</span></div>
 						<div class="sub-header-sm">
 							<a href="https://www.instagram.com/limitlessyou.lk/" target="_blank">
 								<svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 38 38">

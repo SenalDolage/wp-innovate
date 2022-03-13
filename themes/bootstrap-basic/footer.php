@@ -90,7 +90,7 @@
 					<div class="col-wrapper row">
 						<div class="col-6 col-sm-4 menu-col">
 							<h4>
-								Privacy Policy
+								Privacy Info
 							</h4>
 
 							<div class="menu-wrapper">
@@ -108,24 +108,58 @@
 							</div>
 						</div>
 
-						<div class="col-6 col-sm-4 menu-col">
+						<!-- <div class="col-6 col-sm-4 menu-col">
 							<h4>
 								Need Help?
 							</h4>
 
 							<div class="menu-wrapper">
-								<?php wp_nav_menu(array('theme_location' => 'footer-col-three', 'container' => false, 'menu_class' => 'footer-menu', 'walker' => new BootstrapBasicMyWalkerNavMenu())); ?>
+								< ?php wp_nav_menu(array('theme_location' => 'footer-col-three', 'container' => false, 'menu_class' => 'footer-menu', 'walker' => new BootstrapBasicMyWalkerNavMenu())); ?>
 							</div>
-						</div>
+						</div> -->
 					</div>
 				</div>
 
 				<div class="col-md-6">
-					<div class="newsletter-inner">
+					<!-- <div class="newsletter-inner">
 						<h4>
 							NEWSLETTER
 						</h4>
-						<?php echo do_shortcode('[contact-form-7 id="189" title="Footer Newsletter"]'); ?>
+						< ?php echo do_shortcode('[contact-form-7 id="189" title="Footer Newsletter"]'); ?>
+					</div> -->
+					<div class="reach-out-inner">
+						<h4>
+							Reach Out
+						</h4>
+
+						<div class="reach-out-items">
+							<div class="reach-out-item">
+								<a href="mailto:info@innovate.lk">
+									<svg xmlns="http://www.w3.org/2000/svg" width="17.511" height="15.506" viewBox="0 0 17.511 15.506">
+										<path id="Path_8" data-name="Path 8" d="M15.322,64H2.189A2.411,2.411,0,0,0,0,66.584V76.922a2.411,2.411,0,0,0,2.189,2.584H15.322a2.411,2.411,0,0,0,2.189-2.584V66.584A2.412,2.412,0,0,0,15.322,64ZM2.189,65.938H15.322a.6.6,0,0,1,.547.646v.895l-5.7,5.576a2,2,0,0,1-2.821,0l-5.7-5.576v-.9A.6.6,0,0,1,2.189,65.938ZM15.322,77.568H2.189a.6.6,0,0,1-.547-.646V70L6.3,74.584a3.526,3.526,0,0,0,2.459,1.046,3.521,3.521,0,0,0,2.461-1.049L15.869,70v6.917A.6.6,0,0,1,15.322,77.568Z" transform="translate(0 -64)" fill="#fff" />
+									</svg>
+
+									<span> info@innovate.lk </span>
+								</a>
+							</div>
+
+							<div class="reach-out-item">
+								<a href="tel:0727171717">
+									<svg xmlns="http://www.w3.org/2000/svg" width="20.249" height="20.473">
+										<path d="M10.137 0A10.182 10.182 0 0 0 .022 10.22a10.285 10.285 0 0 0 1.351 5.11L0 20.473l5.3-1.266a10.02 10.02 0 0 0 4.833 1.244A10.251 10.251 0 0 0 17.29 3a9.993 9.993 0 0 0-7.153-3Zm0 2.047a8.006 8.006 0 0 1 5.723 2.4A8.2 8.2 0 0 1 10.133 18.4a8.029 8.029 0 0 1-3.864-.994l-.682-.376-.753.18-1.994.48.486-1.827.22-.82-.419-.736a8.237 8.237 0 0 1-1.08-4.087 8.143 8.143 0 0 1 8.088-8.173ZM6.558 5.5a.924.924 0 0 0-.674.32A2.87 2.87 0 0 0 5 7.951a5 5 0 0 0 1.03 2.643 10.415 10.415 0 0 0 4.317 3.855c2.134.851 2.568.683 3.032.64a2.549 2.549 0 0 0 1.707-1.214 2.168 2.168 0 0 0 .148-1.216c-.063-.106-.231-.17-.484-.3s-1.495-.745-1.726-.83-.4-.128-.57.128-.651.83-.8 1-.295.194-.548.066a6.942 6.942 0 0 1-2.033-1.27 7.684 7.684 0 0 1-1.406-1.767c-.147-.255-.014-.395.113-.522s.251-.3.378-.448a1.781 1.781 0 0 0 .253-.426.477.477 0 0 0-.022-.448c-.063-.128-.554-1.39-.779-1.9-.189-.425-.389-.435-.57-.442h-.482Z" fill="#fff" />
+									</svg>
+
+									&nbsp;
+
+									<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+										<path id="Path_9" data-name="Path 9" d="M19.971,15.111l-.908,3.937a1.214,1.214,0,0,1-1.19.946A17.891,17.891,0,0,1,0,2.123,1.213,1.213,0,0,1,.946.934L4.884.026a1.226,1.226,0,0,1,1.4.708L8.1,4.971A1.222,1.222,0,0,1,7.748,6.4l-2.1,1.689a13.659,13.659,0,0,0,6.231,6.23l1.722-2.1a1.215,1.215,0,0,1,1.425-.351l4.239,1.817A1.332,1.332,0,0,1,19.971,15.111Z" transform="translate(0 0.006)" fill="#fff" />
+									</svg>
+
+									<span> 0727 17 17 17 </span>
+								</a>
+							</div>
+						</div>
+
 					</div>
 				</div>
 			</div>
