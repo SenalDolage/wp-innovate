@@ -54,12 +54,12 @@
             <h2>New In</h2>
         </div>
 
-        <div class="new-list">
+        <div class="new-list large">
             <?php
             if (have_rows('new-repeater')) :
                 while (have_rows('new-repeater')) : the_row();
             ?>
-                    <div class="new-list-item">
+                    <div class="new-list-item large-item">
                         <img src="<?php the_sub_field('left_column_image'); ?>" alt="new-product">
                         <!-- <div class="new-list-item-description">
                             <p class="new-list-title">
@@ -82,6 +82,20 @@
                                 </a>
                             </div>
                         </div> -->
+                    </div>
+            <?php
+                endwhile;
+            endif;
+            ?>
+        </div>
+
+        <div class="new-list small">
+            <?php
+            if (have_rows('new-repeater')) :
+                while (have_rows('new-repeater')) : the_row();
+            ?>
+                    <div class="new-list-item large-item">
+                        <img src="<?php the_sub_field('mobile_screen_image'); ?>" alt="new-product">
                     </div>
             <?php
                 endwhile;

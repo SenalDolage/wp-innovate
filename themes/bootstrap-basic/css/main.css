@@ -464,8 +464,12 @@ img.aligncenter {
   position: relative;
 }
 
+.new-in .new-list.large {
+  display: none;
+}
+
 .new-list-item {
-  background: #fff;
+  /* background: #fff; */
   align-items: start;
   /* border-radius: 15px; */
   display: flex !important;
@@ -478,6 +482,14 @@ img.aligncenter {
 @media (min-width: 768px) {
   .new-list-item {
     align-items: center;
+  }
+
+  .new-in .new-list.small {
+    display: none;
+  }
+
+  .new-in .new-list.large {
+    display: block;
   }
 }
 
