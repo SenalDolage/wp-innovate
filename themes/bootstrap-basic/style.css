@@ -142,6 +142,10 @@ html {
   scroll-behavior: smooth;
 }
 
+a {
+  cursor: pointer;
+}
+
 .align-items-center {
   align-items: center;
 }
@@ -213,6 +217,7 @@ section {
 @media (min-width: 991px) {
   .hero-banner {
     height: 90vh;
+    padding: 0 40px;
   }
 }
 

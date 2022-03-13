@@ -479,6 +479,10 @@ img.aligncenter {
   position: relative;
 }
 
+.new-list-item img {
+  border-radius: 15px;
+}
+
 @media (min-width: 768px) {
   .new-list-item {
     align-items: center;
