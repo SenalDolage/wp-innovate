@@ -8,7 +8,7 @@
 <?php get_header(); ?>
 
 <!-- Hero Banner Section -->
-<div class="hero-banner">
+<div class="hero-banner container">
     <?php if (get_field('banner_image')) :
         $image = get_field('banner_image');
     ?>

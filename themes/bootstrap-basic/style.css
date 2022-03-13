@@ -164,7 +164,7 @@ section {
 
 /* Home Hero section */
 .hero-banner {
-  height: 300px;
+  height: 50vh;
   position: relative;
   display: flex;
 }
@@ -206,7 +206,7 @@ section {
 
 @media (min-width: 768px) {
   .hero-banner {
-    height: 500px;
+    height: 60vh;
   }
 }
 
@@ -216,11 +216,11 @@ section {
   }
 }
 
-@media (min-width: 1440px) {
+/* @media (min-width: 1440px) {
   .hero-banner {
     height: 100vh;
   }
-}
+} */
 
 /* Section Title */
 .title-wrapper {

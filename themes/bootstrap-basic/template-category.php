@@ -11,13 +11,15 @@
 
     <!-- Banner Section -->
     <div class="range-banner">
-        <?php if (get_field('range_banner_image')) :
-            $image = get_field('range_banner_image');
-        ?>
-            <div class="image-wrapper">
-                <img src="<?php echo esc_url($image); ?>" alt="banner" />
-            </div>
-        <?php endif ?>
+        <div class="container">
+            <?php if (get_field('range_banner_image')) :
+                $image = get_field('range_banner_image');
+            ?>
+                <div class="image-wrapper">
+                    <img src="<?php echo esc_url($image); ?>" alt="banner" />
+                </div>
+            <?php endif ?>
+        </div>
     </div>
 
     <!-- Products Listing Section -->
