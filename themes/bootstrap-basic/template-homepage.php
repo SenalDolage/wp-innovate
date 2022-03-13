@@ -60,7 +60,9 @@
                 while (have_rows('new-repeater')) : the_row();
             ?>
                     <div class="new-list-item large-item">
-                        <img src="<?php the_sub_field('left_column_image'); ?>" alt="new-product">
+                        <a href="<?php the_sub_field('link_to'); ?>">
+                            <img src="<?php the_sub_field('left_column_image'); ?>" alt="new-product">
+                        </a>
                         <!-- <div class="new-list-item-description">
                             <p class="new-list-title">
                                 < ?php the_sub_field('right_column_title'); ?>
@@ -95,7 +97,9 @@
                 while (have_rows('new-repeater')) : the_row();
             ?>
                     <div class="new-list-item large-item">
-                        <img src="<?php the_sub_field('mobile_screen_image'); ?>" alt="new-product">
+                        <a href="<?php the_sub_field('link_to'); ?>">
+                            <img src="<?php the_sub_field('mobile_screen_image'); ?>" alt="new-product">
+                        </a>
                     </div>
             <?php
                 endwhile;
