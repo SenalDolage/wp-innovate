@@ -181,6 +181,10 @@ section {
   height: 100% !important;
 }
 
+.hero-banner .video-wrapper .h5vp_player {
+  width: 100% !important;
+}
+
 #h5vp_player .h5vp_player {
   position: absolute;
   top: 0;
