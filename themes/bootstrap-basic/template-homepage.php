@@ -8,7 +8,7 @@
 <?php get_header(); ?>
 
 <!-- Hero Banner Section -->
-<div class="hero-banner">
+<div class="hero-banner container">
     <?php if (get_field('banner_image')) :
         $image = get_field('banner_image');
     ?>
@@ -54,13 +54,15 @@
             <h2>New In</h2>
         </div>
 
-        <div class="new-list">
+        <div class="new-list large">
             <?php
             if (have_rows('new-repeater')) :
                 while (have_rows('new-repeater')) : the_row();
             ?>
-                    <div class="new-list-item">
-                        <img src="<?php the_sub_field('left_column_image'); ?>" alt="new-product">
+                    <div class="new-list-item large-item">
+                        <a href="<?php the_sub_field('link_to'); ?>">
+                            <img src="<?php the_sub_field('left_column_image'); ?>" alt="new-product">
+                        </a>
                         <!-- <div class="new-list-item-description">
                             <p class="new-list-title">
                                 < ?php the_sub_field('right_column_title'); ?>
@@ -82,6 +84,22 @@
                                 </a>
                             </div>
                         </div> -->
+                    </div>
+            <?php
+                endwhile;
+            endif;
+            ?>
+        </div>
+
+        <div class="new-list small">
+            <?php
+            if (have_rows('new-repeater')) :
+                while (have_rows('new-repeater')) : the_row();
+            ?>
+                    <div class="new-list-item large-item">
+                        <a href="<?php the_sub_field('link_to'); ?>">
+                            <img src="<?php the_sub_field('mobile_screen_image'); ?>" alt="new-product">
+                        </a>
                     </div>
             <?php
                 endwhile;
