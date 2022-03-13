@@ -46,14 +46,14 @@
 		<header role="banner" class="site-header">
 			<div class="container">
 				<div class="row top-header-row">
-					<div class="col-xs-8 col-sm-4">
+					<div class="col-xs-8 col-sm-4 logo-wrap-col">
 						<div class="main-logo-wrap">
 							<a href="<?php echo esc_url(home_url('/')); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" rel="home">
 								<img src="<?php bloginfo('template_url'); ?>/img/logo.png">
 							</a>
 						</div>
 					</div>
-					<div class="col-xs-4 col-sm-8">
+					<div class="col-xs-12 col-sm-8">
 						<nav class="navbar navbar-default" role="navigation">
 							<div class="navbar-header">
 								<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-primary-collapse">

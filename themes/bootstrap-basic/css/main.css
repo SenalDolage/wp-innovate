@@ -368,6 +368,35 @@ img.aligncenter {
   color: #eee;
 }
 
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+
+@media (max-width: 767px) {
+  .logo-wrap-col {
+    left: 0;
+    position: absolute;
+    top: 0;
+  }
+
+  .top-header-row {
+    justify-content: end;
+  }
+
+  .navbar-collapse {
+    margin-top: 15px;
+  }
+
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #fff;
+  }
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+  background-color: #a9077d;
+}
+
 /* Collection styles  */
 .categories-list {
   padding: 0 50px;
@@ -455,6 +484,11 @@ img.aligncenter {
   .title-wrapper h2::after {
     top: -7px;
     width: 20%;
+  }
+
+  .title-wrapper.get-to-know h2::before,
+  .title-wrapper.get-to-know h2::after {
+    width: 12%;
   }
 }
 
