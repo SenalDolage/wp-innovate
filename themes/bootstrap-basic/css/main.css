@@ -199,7 +199,7 @@ img.aligncenter {
 }
 
 .site-header {
-  background-color: #a9077d;
+  background-color: #aa038f;
   padding: 10px 0;
   position: sticky;
   top: 0;
@@ -228,18 +228,19 @@ img.aligncenter {
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:focus,
 .navbar-default .navbar-nav > .open > a:hover {
-  background-color: #a9077d;
+  background-color: #aa038f;
   background-image: none;
   color: #fff;
 }
 
 .sub-menu.dropdown-menu {
-  background-color: #a9077d;
+  background-color: #aa038f;
 }
 
 .sub-menu.dropdown-menu li a {
   color: #fff;
   padding: 10px 20px;
+  border-radius: 0;
 }
 
 .sub-menu.dropdown-menu li a:hover {
@@ -264,7 +265,7 @@ img.aligncenter {
 }
 
 .sub-header {
-  background-color: #a9077d;
+  background-color: #aa038f;
   padding: 10px 0;
   /* border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px; */
@@ -354,13 +355,31 @@ img.aligncenter {
   color: #fff;
 }
 
+.navbar-nav {
+  margin: 0;
+  padding: 5px 0;
+}
+
+.nav > li {
+  margin-bottom: 5px;
+}
+
+@media (min-width: 767px) {
+  .nav > li {
+    margin-bottom: 0;
+    margin-right: 5px;
+  }
+}
+
+.navbar-default .navbar-nav a {
+  border-radius: 10px;
+}
+
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:focus,
 .navbar-default .navbar-nav > .active > a:hover {
-  /* background-color: rgb(102 20 80 / 50%); */
   background-color: transparent;
   background-image: none;
-  /* border-radius: 20px; */
   box-shadow: none;
 }
 
@@ -368,12 +387,31 @@ img.aligncenter {
 .navbar-default .navbar-nav > .active > a:focus,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > li > a:focus,
-.navbar-default .navbar-nav > li > a:hover {
+.navbar-default .navbar-nav > li > a:hover,
+.navbar .navbar-nav .open .dropdown-menu > .active > a {
   color: #eee;
+  background-color: rgb(102 20 80 / 50%);
+  background-image: none;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #fff;
+}
+
+.page-template-template-homepage
+  .navbar-default
+  .navbar-nav
+  > .active:not(:first-child)
+  > a {
+  background-color: transparent;
+}
+
+.page-template-template-homepage
+  .navbar-default
+  .navbar-nav
+  > .active
+  > a:hover {
+  background-color: rgb(102 20 80 / 50%);
 }
 
 @media (max-width: 767px) {
@@ -398,7 +436,7 @@ img.aligncenter {
 
 .navbar-default .navbar-toggle:focus,
 .navbar-default .navbar-toggle:hover {
-  background-color: #a9077d;
+  background-color: #aa038f;
 }
 
 /* Collection styles  */

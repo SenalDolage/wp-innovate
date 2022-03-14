@@ -144,6 +144,7 @@ html {
 
 a {
   cursor: pointer;
+  transition: all 250ms ease-in;
 }
 
 .align-items-center {
@@ -273,7 +274,7 @@ section {
 
 /* Footer */
 .site-footer {
-  background-color: #a9077d;
+  background-color: #aa038f;
   color: #fff;
   padding: 25px 0 25px;
 }
@@ -332,7 +333,7 @@ section {
 .site-footer .second-row .newsletter-inner .submit-btn {
   margin-top: 5px;
   text-transform: uppercase;
-  color: #a9077d;
+  color: #aa038f;
   font-weight: 600;
 }
 
@@ -352,7 +353,7 @@ section {
   padding: 10px;
   background: #fff;
   border: none;
-  color: #a9077d;
+  color: #aa038f;
   font-weight: 600;
 }
 
@@ -425,7 +426,7 @@ section {
 
   .site-footer .second-row .newsletter-inner .email-input {
     width: 100%;
-    color: #a9077d;
+    color: #aa038f;
   }
 
   .site-footer .second-row .newsletter-inner .wpcf7-not-valid-tip {
