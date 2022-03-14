@@ -78,16 +78,17 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-12">
-						<div class="join-tribe">Join The <span>Tribe</span></div>
+						<div class="join-tribe">Join The <span>TRIBE</span></div>
 						<div class="sub-header-sm">
-							<a href="https://www.instagram.com/limitlessyou.lk/" target="_blank">
-								<svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 38 38">
-									<path id="icons8-instagram" d="M16.5,5A11.523,11.523,0,0,0,5,16.5v15A11.523,11.523,0,0,0,16.5,43h15A11.524,11.524,0,0,0,43,31.5v-15A11.523,11.523,0,0,0,31.5,5Zm0,3h15A8.478,8.478,0,0,1,40,16.5v15A8.479,8.479,0,0,1,31.5,40h-15A8.478,8.478,0,0,1,8,31.5v-15A8.477,8.477,0,0,1,16.5,8ZM34,12a2,2,0,1,0,2,2A2,2,0,0,0,34,12ZM24,14A10,10,0,1,0,34,24,10.023,10.023,0,0,0,24,14Zm0,3a7,7,0,1,1-7,7A6.978,6.978,0,0,1,24,17Z" transform="translate(-5 -5)" fill="#fff" />
-								</svg>
-							</a>
 							<a href="https://www.facebook.com/innovatelanka" target="_blank">
 								<svg xmlns="http://www.w3.org/2000/svg" width="10.525" height="20" viewBox="0 0 10.525 20">
 									<path id="icons8-facebook-f" d="M17.525,9H14V7c0-1.032.084-1.682,1.563-1.682h1.868V2.138A26.065,26.065,0,0,0,14.693,2,4.374,4.374,0,0,0,10,6.7V9H7v4h3v9h4V13h3.066Z" transform="translate(-7 -2)" fill="#fff" />
+								</svg>
+							</a>
+
+							<a href="https://www.instagram.com/limitlessyou.lk/" target="_blank">
+								<svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 38 38">
+									<path id="icons8-instagram" d="M16.5,5A11.523,11.523,0,0,0,5,16.5v15A11.523,11.523,0,0,0,16.5,43h15A11.524,11.524,0,0,0,43,31.5v-15A11.523,11.523,0,0,0,31.5,5Zm0,3h15A8.478,8.478,0,0,1,40,16.5v15A8.479,8.479,0,0,1,31.5,40h-15A8.478,8.478,0,0,1,8,31.5v-15A8.477,8.477,0,0,1,16.5,8ZM34,12a2,2,0,1,0,2,2A2,2,0,0,0,34,12ZM24,14A10,10,0,1,0,34,24,10.023,10.023,0,0,0,24,14Zm0,3a7,7,0,1,1-7,7A6.978,6.978,0,0,1,24,17Z" transform="translate(-5 -5)" fill="#fff" />
 								</svg>
 							</a>
 						</div>

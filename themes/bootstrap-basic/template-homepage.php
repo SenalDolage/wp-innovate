@@ -26,7 +26,7 @@
 <section class="collection" id="collection">
     <div class="container">
         <div class="title-wrapper">
-            <h2>Collection</h2>
+            <h2>Our Collections</h2>
         </div>
 
         <div class="categories-list">
