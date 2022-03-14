@@ -201,6 +201,11 @@ img.aligncenter {
 .site-header {
   background-color: #a9077d;
   padding: 10px 0;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  left: 0;
+  z-index: 1;
 }
 
 .site-header .navbar-default {

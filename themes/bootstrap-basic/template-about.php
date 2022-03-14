@@ -22,27 +22,30 @@
         </div>
     </div>
 
-    <div class="products-listing-wrapper">
-        <div class="products-inner-wrapper">
-            <div class="container">
-                <div class="row items-row">
-                    <div class="col-md-4">
-                        <div class="main-cat-name">
 
+    <section class="about-us about-template" id="about">
+        <div class="container">
+            <div class="title-wrapper">
+                <h2><?php the_field('list_section_title'); ?></h2>
+            </div>
+            <div class="row">
+                <?php
+                if (have_rows('about_points_repeater')) :
+                    while (have_rows('about_points_repeater')) : the_row();
+                ?>
+                        <div class="col-content col-sm-12">
+                            <div class="inner-col">
+                                <h4><?php the_sub_field('title'); ?></h4>
+                                <p><?php the_sub_field('description'); ?></p>
+                            </div>
                         </div>
-
-                    </div>
-
-                    <div class="col-md-8">
-                        <div class="products-slider-wrapper">
-
-                        </div>
-                    </div>
-                </div>
+                <?php
+                    endwhile;
+                endif;
+                ?>
             </div>
         </div>
-    </div>
-
+    </section>
 
 </div>
 
