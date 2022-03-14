@@ -462,6 +462,31 @@ section {
   margin-top: 20px;
 }
 
+/* About template */
+.about-us-template-content {
+  padding: 70px 0;
+}
+
+.about-us-template-content .col-content {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.about-us-template-content .col-content:last-child {
+  padding-bottom: 0;
+}
+
+@media (min-width: 992px) {
+  .about-us-template-content .col-content {
+    padding-bottom: 40px;
+  }
+
+  .about-us-template-content .inner-col {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+}
+
 /* Common Input Styling */
 input {
   border-radius: 5px;
@@ -473,4 +498,10 @@ input {
   text-overflow: ellipsis;
   outline: none;
   font-size: 13px;
+}
+
+@media (min-width: 992px) {
+  .compact-banner {
+    padding: 0 40px;
+  }
 }

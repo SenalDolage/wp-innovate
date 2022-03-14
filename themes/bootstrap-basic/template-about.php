@@ -11,7 +11,7 @@
 
     <!-- Banner Section -->
     <div class="range-banner">
-        <div class="container">
+        <div class="container compact-banner">
             <?php if (get_field('about_banner_image')) :
                 $image = get_field('about_banner_image');
             ?>
@@ -23,7 +23,7 @@
     </div>
 
 
-    <section class="about-us about-template" id="about">
+    <section class="about-us-template-content" id="about">
         <div class="container">
             <div class="title-wrapper">
                 <h2><?php the_field('list_section_title'); ?></h2>

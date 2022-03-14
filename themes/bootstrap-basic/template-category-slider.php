@@ -11,7 +11,7 @@
 
     <!-- Banner Section -->
     <div class="range-banner">
-        <div class="container">
+        <div class="container  compact-banner">
             <?php if (get_field('range_banner_image')) :
                 $image = get_field('range_banner_image');
             ?>
