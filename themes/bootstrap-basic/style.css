@@ -298,15 +298,24 @@ section {
   align-items: center;
 }
 
+.site-footer .second-row .col-wrapper {
+  display: flex;
+}
+
 .site-footer .second-row .menu-col {
   padding-bottom: 15px;
   text-align: center;
+  width: 50%;
 }
 
 @media (min-width: 992px) {
   .site-footer .second-row .menu-col {
     padding-bottom: 0;
     text-align: left;
+  }
+
+  .site-footer .socials-logo-row {
+    margin: 0 auto;
   }
 }
 

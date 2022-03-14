@@ -78,7 +78,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-12">
-						<div class="join-tribe">Join The <span>TRIBE</span></div>
+						<div class="join-tribe">Join The TRIBE</div>
 						<div class="sub-header-sm">
 							<a href="https://www.facebook.com/innovatelanka" target="_blank">
 								<svg xmlns="http://www.w3.org/2000/svg" width="10.525" height="20" viewBox="0 0 10.525 20">
