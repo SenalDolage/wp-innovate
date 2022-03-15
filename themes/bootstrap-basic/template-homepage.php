@@ -22,6 +22,14 @@
     <?php endif ?>
 </div>
 
+<div class="video-container">
+    <div class="container">
+    <video autoplay loop controls muted>
+        <source src="<?php bloginfo('template_url');?>/videos/MainLaunchVideo.mp4" type="video/mp4" >
+    </video>
+    </div>
+</div>
+
 <!-- Collection Section -->
 <section class="collection" id="collection">
     <div class="container">

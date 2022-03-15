@@ -447,6 +447,7 @@ img.aligncenter {
 
   .navbar-collapse {
     margin-top: 15px;
+    overflow: hidden;
   }
 
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
@@ -457,6 +458,16 @@ img.aligncenter {
 .navbar-default .navbar-toggle:focus,
 .navbar-default .navbar-toggle:hover {
   background-color: #aa038f;
+}
+
+@media (min-width: 767px) {
+.menu-item-has-children:hover .dropdown-menu {
+  display: block !important;
+}
+
+.menu-item-has-children.open .dropdown-menu {
+  display: none;
+}
 }
 
 /* Collection styles  */
@@ -526,7 +537,7 @@ img.aligncenter {
   left: 0;
   margin: auto;
   position: absolute;
-  top: -2px;
+  top: -5px;
   width: 36%;
 }
 
@@ -537,7 +548,7 @@ img.aligncenter {
   margin: auto;
   position: absolute;
   right: 0;
-  top: -2px;
+  top: -5px;
   width: 36%;
 }
 
@@ -883,7 +894,7 @@ h2.cat-name {
 
 .hover-content {
   align-items: center;
-  background: rgb(173, 34, 135);
+  background: #ad2287;
   background: linear-gradient(
     0deg,
     rgba(173, 34, 135, 0.46852244315695024) 0%,
@@ -917,6 +928,10 @@ h2.cat-name {
 }
 
 /* Range Template */
+.range-banner {
+  margin-bottom: 25px;
+}
+
 .range-products-wrapper {
   margin-top: 30px;
 }
@@ -929,4 +944,65 @@ h2.cat-name {
   display: flex;
   flex-wrap: wrap;
   padding-bottom: 40px;
+}
+
+.products-inner-wrapper {
+  margin-bottom: 20px;
+}
+
+.products-inner-wrapper .items-row {
+  display: flex;
+  padding: 0 15px;
+  margin-bottom: 20px;
+}
+
+.products-inner-wrapper .products-slider-wrapper .slick-arrow {
+  background-color: transparent;
+  border: 0 none;
+  bottom: 0;
+  font-size: 0;
+  left: 0;
+  position: absolute;
+  top: 0;
+  z-index: 2;
+}
+
+.products-inner-wrapper .products-slider-wrapper .slick-arrow::before {
+  background-image: url("../img/chevron-left-solid.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: "";
+  display: block;
+  height: 100px;
+  width: 35px;
+}
+
+.products-inner-wrapper .products-slider-wrapper .slick-arrow.slick-next {
+  left: auto;
+  right: 0;
+}
+
+.products-inner-wrapper .products-slider-wrapper .slick-arrow.slick-next::before {
+  transform: rotate(180deg);
+}
+
+.main-cat {
+  align-items: center;
+  background-color: #ad2287;
+  border-radius: 15px;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  padding: 5px;
+}
+
+.main-cat-name {
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.video-container video {
+  width: 100%;
 }

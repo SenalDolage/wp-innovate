@@ -37,4 +37,33 @@ jQuery(function ($) {
         dots: true,
         speed: 800,
     });
+
+    $('.products-slider-wrapper').slick({
+        infinite: true,
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        speed: 500,
+        responsive: [
+            {
+                breakpoint: 1025,
+                settings: {
+                    slidesToShow: 3
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 2
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1
+                }
+            }
+        ]
+    })    
 });
+
+// document.getElementById('vid').play();
