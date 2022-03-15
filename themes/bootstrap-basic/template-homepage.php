@@ -8,25 +8,33 @@
 <?php get_header(); ?>
 
 <!-- Hero Banner Section -->
-<div class="hero-banner container">
-    <?php if (get_field('banner_image')) :
+<!-- <div class="hero-banner container">
+    < ?php if (get_field('banner_image')) :
         $image = get_field('banner_image');
     ?>
         <div class="image-wrapper">
-            <img src="<?php echo esc_url($image['url']); ?>" alt="banner" />
+            <img src="< ?php echo esc_url($image['url']); ?>" alt="banner" />
         </div>
-    <?php else : ?>
+    < ?php else : ?>
         <div class="video-wrapper">
-            <?php echo do_shortcode('[video id="197"]'); ?>
+            < ?php echo do_shortcode('[video id="197"]'); ?>
         </div>
-    <?php endif ?>
-</div>
+    < ?php endif ?>
+</div> -->
 
 <div class="video-container">
     <div class="container">
-    <video autoplay loop controls muted>
-        <source src="<?php bloginfo('template_url');?>/videos/MainLaunchVideo.mp4" type="video/mp4" >
-    </video>
+        <?php if (get_field('banner_image')) :
+            $image = get_field('banner_image');
+        ?>
+            <div class="image-wrapper">
+                <img src="<?php echo esc_url($image['url']); ?>" alt="banner" />
+            </div>
+        <?php else : ?>
+            <video controls autoplay loop muted>
+                <source src="<?php the_field('banner_video'); ?>" type="video/mp4">
+            </video>
+        <?php endif ?>
     </div>
 </div>
 
