@@ -1007,6 +1007,10 @@ h2.cat-name {
   font-weight: 500;
 }
 
+.video-container {
+  overflow: hidden;
+}
+
 .video-container video {
   width: 100%;
 }

@@ -21,7 +21,6 @@
         </div>
     < ?php endif ?>
 </div> -->
-
 <div class="video-container">
     <div class="container">
         <?php if (get_field('banner_image')) :
